@@ -1,0 +1,769 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ! Header Section Start */
+.main-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: yellow; */
+}
+.mid-header{
+    max-width: 93%;
+    margin: auto;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mid-header--left{
+    width: 10%;
+    /* background-color: aqua; */
+}
+.mid-header--right{
+    width: 81%;
+    /* background-color: chartreuse; */
+}
+.mid-header--right>ul{
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+}
+.mid-header--right>ul>li>a{
+    color: #004282;
+}
+.mid-header--right>ul>li>a>button{
+    padding: 10px 15px;
+    background-color: #2eff46;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mid-header--right>ul>li>a>button:last-child{
+    color: #F3842F;
+    border: 3px solid #F3842F;
+    background-color: transparent;
+    margin-left: 6px;
+}
+/* ! Header Section End */
+
+/* ! Top Image Section Start */
+.main-top--image{
+    margin-top: 105px;
+}
+.main-top--image>img{
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+/* ! Top Image Section End */
+
+/* ! Free Site Visit Section Start */
+.main-free--site{
+    width: 100%;
+    background-color: #306598;
+}
+.mid-free--site{
+    max-width: 1100px;
+    margin: auto;
+    /* background-color: yellow; */
+    text-align: center;
+    padding: 50px 0px;
+}
+.mid-free--site>h2{
+    font-size: 28px;
+    text-align: start;
+    color: white;
+    font-weight: 100;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.mid-free--site>ul{
+    display: flex;
+    gap: 40px;
+
+}
+.mid-free--site>ul>li>input{
+    padding: 15px 20px;
+    width: 220px;
+    border-radius: 5px;
+    border: none;
+}
+.mid-free--site>ul>li>button{
+    padding: 15px 25px;
+    font-size: 12px;
+    width: 200px;
+    border: none;
+    background-color: #2eff46;
+    font-weight: 600;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* ! Free Site Visit Section End */
+
+/* ! Why Smart City Section Start */
+.main-why--smartcity{
+    width: 100%;
+    background-color: #F3F3F3;
+}
+.mid-why--smartcity{
+    max-width: 1100px;
+    margin: auto;
+    /* background-color: #2eff46; */
+    padding: 50px 0px 70px 0px;
+    text-align: center;
+}
+.mid-why--smartcity>h2{
+    font-size: 30px;
+    color: #306598;
+    margin-bottom: 30px;
+}
+.smartcity-container{
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+/* ! Why Smart City Section End */
+/* ! Project Overview Section Start */
+.main-project--overview{
+    width: 100%;
+    /* background-color: #2eff46; */
+}
+.mid-project--overview{
+    max-width: 1100px;
+    margin: auto;
+    /* background-color: lightblue; */
+    padding: 140px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.mid-project--left{
+    flex-basis: 45%;
+}
+.mid-project--left>img{
+    width: 100%;
+}
+.mid-project--right{
+    flex-basis: 52%;
+}
+.mid-project--right>h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #306598;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.mid-project--right>p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.mid-project--right>p>i{
+    font-size: 20px;
+    color: #306598;
+}
+.mid-project--right>button{
+    padding: 10px 15px;
+    background-color: #2eff46;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* ! Project Overview Section End */    
+/* ! MORE THAN JUST A PLOT Section Start */
+.main-morethan--plot{
+    width: 100%;
+    background-color: #F8F8F8;
+}
+.mid-morethan--plot{
+    max-width: 1100px;
+    margin: auto;
+    /* background-color: lightblue; */
+    text-align: center;
+    padding: 140px 0px 50px 0px;
+
+}
+.mid-morethan--plot>h2{
+    font-size: 30px;
+    color: #306598;
+    margin-bottom: 20px;
+}
+.mid-morethan--plot>p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+/* *************************** */
+.morethan-plot--info{
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.morethan-plot--info>.plot-info{
+    flex-basis: 30%;
+    /* background-color: #2eff46; */
+}
+.morethan-plot--info>.plot-info:last-child>.plot-info--row>p{
+    text-align: start;
+}
+.morethan-plot--info>.plot-info>.plot-info--row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.morethan-plot--info>.plot-info>.plot-info--row>p{
+    font-size: 18px;
+    text-align: start;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.morethan-plot--info>.plot-info--image{
+    flex-basis: 30%;
+}
+/* ! MORE THAN JUST A PLOT Section End */
+/* ! Rera Approved Project Section Start */
+.main-rera--approved{
+    width: 100%;
+    background-color: white;
+}
+.mid-rera--approved{
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 0px;
+    /* background-color: lightblue; */
+}
+.rera-approved--image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #CCCCCC;
+}
+.rera-approved--image>p{
+    margin: 20px 0px 30px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.rera-approved-info{
+    padding: 30px 0px;
+}
+.rera-approved-info>p{
+    /* background-color: #2eff46; */
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+}
+.rera-approved-info>p:last-child{
+    font-weight: 600;
+    font-size: 14px;
+}
+.rera-approved--container{
+    flex-basis: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 0px;
+}
+.rera-approved--items{
+    width: 20%;
+    padding: 50px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    text-align: center;
+}
+.rera-approved--items>h4{
+    font-size: 35px;
+}
+.rera-approved--items>p{
+    font-weight: bold;
+}
+/* ! Rera Approved Project Section End */
+/* ! Price List Section Start */
+.main-price-list{
+    width: 100%;
+    /* background-color: yellow; */
+}
+.mid-price--list{
+    max-width: 1100px;
+    margin: auto;
+    padding: 140px 0px 50px 0px;
+    /* background-color: lightblue; */
+    text-align: center;
+}
+.mid-price--list>h2{
+    /* background-color: white; */
+    font-size: 30px;
+    color: #306598;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.mid-price--list>p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #306598;
+    margin-bottom: 30px;
+}
+.price-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    width: 85%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #ccc;
+    text-align: center;
+    background-color: #EAEAEA;
+  }
+  
+  th {
+    background-color: #0077b6;
+    color: white;
+  }
+  
+  .header {
+    background-color: #0077b6;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .unlock-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  .unlock-btn:hover {
+    background-color: rgba(255, 255, 0, 0.759);
+    color: #000000;
+  }
+.price-list-image{
+    width: 100%;
+    /* background-color: #fff; */
+    margin-top: 100px;
+}
+.price-list-image>img{
+    width: 100%;
+}
+/* ! Price List Section End */
+
+/*  ! Highlights of smartcity section Start  */
+.main-highlight--smartcity{
+    width: 100%;
+    /* background-color: yellow; */
+}
+.mid-highlight--smartcity{
+    max-width: 1440px;
+    /* background-color: lightblue; */
+    margin: 60px auto 0px auto;
+    text-align: center;
+}
+.mid-highlight--smartcity>h2{
+    font-size: 30px;
+    color: #306598;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 40px;
+}
+.highlight-container{
+    max-width: 1100px;
+    margin: auto;
+    /* background-color: #2eff46; */
+    padding: 30px 0px 80px 0px;
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.highlight-items{
+    flex-basis: 30%;
+    /* background-color: #F3842F; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+.highlight-items>p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.highlight-container>.btn{
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px 80px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #F7BB0F;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*  ! Highlights of smartcity section End */
+/* ! Experience Location Section Start */
+.main-experience--location{
+    width: 100%;
+    /* background-color: crimson; */
+}
+.mid-experience--location{
+    max-width: 1100px;
+    margin: 80px auto;
+    /* background-color: #004282; */
+    text-align: center;
+}
+.mid-experience--location>h2{
+    font-size: 30px;
+    color: #306598;
+    padding-bottom: 30px;
+}
+.mid-experience--location>p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.experience-videos{
+    display: flex;
+    justify-content: space-between;
+}
+/*  ! Experience Location Section End */
+/* ! Site Plan Section Start */
+.main-site--plan{
+    width: 100%;
+    /* background-color: tomato; */
+}
+.mid-site--plan{
+    max-width: 750px;
+    margin: 100px auto;
+    /* background-color: #F7BB0F; */
+    padding: 140px 0px 30px 0px;
+    text-align: center;
+}
+.mid-site--plan>h2{
+    font-size: 30px;
+    color: #306598;
+    padding-bottom: 30px;
+}
+.mid-site--plan>p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.mid-site--plan>img{
+    width: 100%;
+}
+.mid-site--plan>.btn{
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px 80px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #F7BB0F;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* ! Site Plan Section End */
+/* ! Location Section Start */
+/* * Reused the site plan section code */
+.main-site--plan>.location-map{
+    /* background-color: #2eff46; */
+    max-width: 100%;
+}
+/* ! Location Section End */
+/* ! Important Landmarks Section Start */
+.main-imp--landmark{
+    width: 100%;
+}
+.mid-imp--landmark{
+    max-width: 1000px;
+    margin: 100px auto;
+    /* background-color: #2eff46; */
+    text-align: center;
+}
+.mid-imp--landmark>h2{
+    font-size: 30px;
+    color: #306598;
+    padding-bottom: 30px;
+}
+.mid-imp--landmark>ul{
+    /* border: 1px solid red; */
+    text-align: start;
+}
+.mid-imp--landmark>ul>li{
+    font-size: 20px;
+    padding: 20px 0px;
+    border-bottom: 1px solid black;
+}
+/* ! Important Landmarks Section End */
+/* ! Amenities Section Start */
+.main-amenities{
+    width: 100%;
+}
+.mid-amenities{
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;   
+}
+.mid-amenities>h2{
+    font-size: 30px;
+    color: #306598;
+    padding-bottom: 30px;
+}
+.mid-amenities>p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.mid-amenities>.amnities-container{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    /* background-color: #2eff46; */
+}
+.amnities-container>.amenities-items{
+    flex-basis: 19%;
+    padding: 10px 0px;
+    /* background-color: #F7BB0F; */
+}
+.amenities-items>p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    letter-spacing: 1px;
+}
+/* ! Amenities Section End */
+/* ! FAQS Section Start */
+.main-faqs{
+    width: 100%;
+}
+.mid-faqs{
+    max-width: 1000px;
+    margin:  100px auto;
+    text-align: center;
+}
+.mid-faqs>h2{
+    font-size: 30px;
+    color: #306598;
+    padding-bottom: 30px;  
+}
+.mid-faqs>p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.mid-faqs>ul{
+    text-align: start;
+}
+.mid-faqs>ul>li{
+    font-size: 20px;
+    padding: 20px 0px;
+    border-bottom: 1px solid black;
+}
+/* ! FAQS Section End */
+/* ! PROJECT GALLERY Section Start */
+.main-project--gallery{
+    width: 100%;
+}
+.mid-project--gallery{
+    max-width: 1100px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 140px 0px 50px 0px;
+}
+.mid-project--gallery>h2{
+    font-size: 30px;
+    color: #306598;
+    padding-bottom: 30px;
+}
+.mid-project--gallery>.gallery-container{
+    max-width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+.gallery-container>img{
+    width: 250px;
+    height: 250px;
+}
+/* ! PROJECT GALLERY Section End */
+/* ! Home Loan Section Start */
+.main-home--loan{
+    width: 100%;
+}
+.mid-home--loan{
+    max-width: 1100px;
+    margin: 100px auto;
+    text-align: center;
+}
+.mid-home--loan>h2{
+    font-size: 30px;
+    color: #306598;
+    padding-bottom: 30px;  
+}
+.mid-home--loan>p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.home-loan--container{
+    max-width: 100%;
+    /* background-color: #2eff46; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.home-loan--items{
+    flex-basis: 15%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.home-loan--items>img{
+    width: 120px;
+    height: 120px;
+    padding: 25px 0px;
+}
+/* ! Home Loan Section Start */
+/* ! Schedule Site Visit Section Start */
+.main-schedule--visit{
+    width: 100%;
+    background-color: #F3F3F3;
+    padding: 60px 0px;
+}
+.mid-schedule--visit{
+    max-width: 1100px;
+    margin: auto;
+    border: 5px solid #004282;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mid-schedule--visit>img{
+    flex-basis: 45%;
+}
+.mid-schedule--visit>.schedule-info{
+    flex-basis: 48%;
+    /* background-color: blueviolet; */
+}
+.schedule-info>h2{
+    font-size: 30px;
+    color: #306598;
+    padding-bottom: 20px;  
+}
+.schedule-info>p{
+    font-size: 13px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.schedule-btn>button{
+    padding: 15px 5px;
+    font-size: 15px;
+    width: 180px;
+    border: none;
+    background-color: #2eff46;
+    font-weight: 600;
+    color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* ! Schedule Site Visit Section End */
+/* ! Footer Section Start */
+.main-footer{
+    width: 100%;
+    background-color: #004282;  
+}
+.mid-footer{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 0px;
+    text-align: center;
+}
+.mid-footer>h2{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 50px;  
+}
+.mid-footer>ul{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.mid-footer>ul>li{
+    line-height: 30px;
+}
+.mid-footer>ul>li>span{
+    font-weight: bold;
+}
+.mid-footer>p{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 13px;
+}
+/* ! Footer Section End */
+/* ! Fixed Anchor Items Section Start */
+.fixed-anchor--container{
+    width: 100px;
+    position: fixed;
+    right: 0px;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.fixed-anchor--container>img{
+    width: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+/* ! Fixed Anchor Items Section End */

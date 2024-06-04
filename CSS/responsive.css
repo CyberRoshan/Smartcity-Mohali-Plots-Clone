@@ -1,0 +1,293 @@
+@media only screen and (min-width:200px) and (max-width: 575px){
+    .mid-header--right{
+        display: none;
+    }
+    .mid-header--left img{
+        margin: 0px 0px 0px 10px;
+        padding: 5px 0px;
+        width: 75px;
+        height: 100%;
+    }
+    .main-top--image{
+        margin-top: 82px;
+    }
+    .main-top--image>img{
+        height: 200px;
+    }
+    .mid-free--site{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .mid-free--site>h2{
+        font-size: 28px;
+        margin-left: 30px;
+    }
+    .mid-free--site>ul{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .mid-free--site>ul>li>input{
+        width: 280px;
+    }
+    .mid-free--site>ul>li>button{
+        width: 280px;
+    }
+
+
+    .mid-why--smartcity{
+        padding: 50px 20px 70px 20px;
+    }
+    .mid-why--smartcity>h2{
+        font-size: 25px;
+    }
+    .mid-why--smartcity>p{
+        text-align: left;
+    }
+    .smartcity-container{
+        flex-direction: column;
+    }
+
+
+    .mid-project--overview{
+        flex-direction: column;
+        padding: 70px 20px 40px 20px;
+    }
+    .mid-project--left>img{
+        width: 100%;
+        height: 350px;
+    }
+    .mid-project--right>h2{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+
+    .mid-morethan--plot{
+        padding: 70px 20px 40px 20px;
+    }
+    .mid-morethan--plot>h2{
+        font-size: 25px;
+    }
+    .mid-morethan--plot>p{
+        text-align: start;
+        margin-bottom: 50px;
+    }
+    .morethan-plot--info{
+        flex-direction: column;
+    }
+    .plot-info--row>img{
+        width: 20%;
+    }
+    .morethan-plot--info>.plot-info>.plot-info--row>p{
+        font-size: 15px;
+    }
+
+
+    .mid-rera--approved{
+        padding: 50px 20px;
+    }
+    .rera-approved-info>p{
+        font-size: 16px;
+    }
+    .rera-approved--container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .rera-approved--items{
+        width: 100%;
+    }
+
+
+    .mid-price--list{
+        padding: 50px 20px 50px 20px;
+    }
+    .mid-price--list>h2{
+        font-size: 25px;
+    }
+    .mid-price--list>p{
+        font-size: 16px;
+    }
+    .price-table>table{
+        width: 100%;
+    }
+
+
+    .mid-highlight--smartcity{
+        margin: 30px auto 0px auto;
+        padding: 0px 20px;
+    }
+    .mid-highlight--smartcity>h2{
+        font-size: 25px;
+    }
+    .highlight-container{
+        flex-direction: column;
+    }
+    .highlight-container>.btn{
+        font-size: 20px;
+    }
+
+
+    .mid-experience--location{
+        margin: 30px auto;
+        padding: 0px 20px;
+    }
+    .mid-experience--location>h2{
+        font-size: 20px;
+    }
+    .mid-experience--location>p{
+        text-align:start ;
+    }
+    .experience-videos{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .experience-videos>iframe{
+        width: 100% !important;
+        height: 200px;
+    }
+
+
+    .mid-site--plan{
+        margin: 0px auto;
+        padding: 70px 20px 30px 20px;
+    }
+    .mid-site--plan>h2{
+        font-size: 25px;
+    }
+    .mid-site--plan>p{
+        text-align: start;
+    }
+    .mid-site--plan>.btn{
+        font-size: 20px;
+    }
+    .location-map{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+
+    .mid-imp--landmark{
+        margin: 50px auto;
+        padding: 0px 20px;
+    }
+    .mid-imp--landmark>h2{
+        font-size: 25px;
+    }
+    .mid-imp--landmark>ul>li{
+        font-size: 16px;
+    }
+
+
+    .mid-amenities{
+        margin: 50px auto;
+        padding: 0px 20px;
+    }
+    .mid-amenities>h2{
+        font-size: 25px;
+    }
+    .mid-amenities>p{
+        text-align: start;
+    }
+    .mid-amenities>.amnities-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .amenities-items>p{
+        font-size: 18px;
+    }
+
+
+    .mid-faqs{
+        margin: 50px auto;
+        padding: 0px 20px;
+    }
+    .mid-faqs>h2{
+        font-size: 25px;
+    }
+    .mid-faqs>p{
+        text-align: start;
+    }
+    .mid-faqs>ul>li{
+        font-size: 16px;
+    }
+
+
+    .mid-project--gallery{
+        margin: 50px auto;
+        padding: 70px 20px 30px 20px;
+    }
+    .mid-project--gallery>h2{
+        font-size: 25px;
+    }
+    .mid-project--gallery>.gallery-container{
+        flex-direction: column;
+    }
+    .gallery-container>img{
+        width: 100%;
+        height: 200px;
+    }
+
+
+    .mid-home--loan{
+        margin: 50px auto;
+        padding: 0px 10px;
+    }
+    .mid-home--loan>h2{
+        font-size: 25px;
+    }
+    .mid-home--loan>p{
+        text-align: start;
+    }
+    .home-loan--items{
+        flex-basis: 48%;
+        margin-bottom: 10px;
+    }
+
+
+    .main-schedule--visit{
+        padding: 60px 5px;
+    }
+    .mid-schedule--visit{
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .mid-schedule--visit>img{
+        width: 100%;
+    }
+    .mid-schedule--visit>.schedule-info{
+        padding-bottom: 30px;
+    }
+    .schedule-info>h2{
+        font-size: 20px;
+    }
+    .schedule-btn>button{
+        width: 150px;
+        font-size: 12px;
+    }
+
+
+    .mid-footer{
+        padding: 50px 20px;
+        text-align: start;
+    }
+    .mid-footer>h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .mid-footer>ul{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .mid-footer>p{
+        font-size: 15px;
+    }
+
+
+    .fixed-anchor--container{
+        right: -20px;
+        top: 230px;
+        gap: 20px;
+    }
+}
